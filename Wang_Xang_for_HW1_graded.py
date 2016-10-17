@@ -343,6 +343,9 @@ for i in m :
 # Qusetion 12. 
 import defaultdict
 
+#Stuart- I had to edit the code myself because I received an indentation error on your documentation in
+# quotes. Be careful because python is very particular about indentation. The way you called the print function
+# also does not work for python 3. Python 3 calls it differently than 2.7
 def anagram(name):
 	# get every word from the list and store them in wordbank
 	wordbank = []
@@ -420,6 +423,9 @@ def balance(string):
         print(string,'NOT OK')
 # check the condition when N=4
 balance(generate(4))
+
+#Stuart- Run your code multiple times. You will see that in generate you will periodically
+# get a list assignment index out of range error. Remember lists are numbered [0,n-1].
 
 # Question 13(2) Pokemon Game
 '''Pokemon Game
